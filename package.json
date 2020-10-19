@@ -1,0 +1,33 @@
+{
+  "name": "toy-react",
+  "version": "1.0.0",
+  "description": "极客时间实现ToyReact",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SiHao24/toy-react.git"
+  },
+  "keywords": [
+    "Sh184116"
+  ],
+  "author": "sihao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SiHao24/toy-react/issues"
+  },
+  "homepage": "https://github.com/SiHao24/toy-react#readme",
+  "dependencies": {
+    "webpack": "^4.44.0",
+    "webpack-cli": "^3.3.12"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.3",
+    "@babel/plugin-transform-react-jsx": "^7.12.1",
+    "@babel/preset-env": "^7.12.1",
+    "babel-loader": "^8.1.0"
+  }
+}
