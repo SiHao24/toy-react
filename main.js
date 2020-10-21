@@ -89,7 +89,9 @@ import { createElement, Component, render } from './toy-react'
 
 class Square extends Component {
   render() {
-    return <button className='square' onClick={this.props.onClick}>{this.props.value}</button>
+    return <button className='square' onClick={this.props.onClick}>
+      {this.props.value}
+    </button>
   }
 }
 
@@ -188,6 +190,9 @@ class Game extends Component {
 }
 
 render(<Game />, document.getElementById('root'))
+
+// let game = <Game />
+// console.log(game.vdom)
 
 function calculateWinner(squares) {
   const lines = [
